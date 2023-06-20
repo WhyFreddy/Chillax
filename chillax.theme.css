@@ -2,9 +2,9 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#author
- * @version 0.9.3
+ * @version 0.7
  * @invite DrfX6286kF
- * @description stress doesn't really goes with your fit, try out chillax you wont regret it.
+ * @description stress doesn't really goes with your fit, try out chillax you might not regret it.
  * @source https://github.com/warrayquipsome/Chillax
  * @donate https://www.paypal.me/wqqt9
 */
@@ -31,7 +31,6 @@
 @import url('https://nyri4.github.io/Discolored/main.css');
 @import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
@@ -39,20 +38,9 @@
 
 
 /*Chillax Roots*/
-:root{
-/*background image*/ /*(replace the link to use)*/
-  --background-image:var('https://media.discordapp.net/attachments/1120818807158624256/1120822220919406743/image.png?width=1437&height=675');
-/*bg dev suggestions*/
-  --wallpaper: url('https://media.discordapp.net/attachments/1120818807158624256/1120822220919406743/image.png?width=1437&height=675');
-/*modern background selection*/
-  --modern-dark-bg: url('https://media.discordapp.net/attachments/1120818807158624256/1120822220919406743/image.png?width=1437&height=675');
-  --modern-light-bg: url('https://media.discordapp.net/attachments/1120818807158624256/1120822220919406743/image.png?width=1437&height=675');
-}
-
-
 /*window*/ /*dark mode*/
 :root.theme-dark {
-  --window-margin: 20px; /*must be above 20px*/
+  --window-margin: 0px; /*must be above 20px*/
   --window-colour: #0009;
   --window-blur: 5px;
   --window-border-radius: 10px;
@@ -104,8 +92,18 @@
   --themedarksettingsmodalbackground: rgb(51, 49, 53);
   --settingsmodalwidth: 960px;
   --settingsmodalheight: 80vh;	
-}
+
      
+/*background image*/ /*(replace the link to use)*/
+  --background-image:var(--de-suggested-bg);
+/*bg dev suggestions*/
+  --wq-suggested-bg: url('https://cdn.discordapp.com/attachments/1120818807158624256/1120822220919406743/image.png');
+  --de-suggested-bg: url('https://cdn.discordapp.com/attachments/1120818807158624256/1120822220919406743/image.png');
+/*modern background selection*/
+  --modern-dark-bg: url('https://cdn.discordapp.com/attachments/1120818807158624256/1120822220919406743/image.png');
+  --modern-light-bg: url('https://cdn.discordapp.com/attachments/1120818807158624256/1120822220919406743/image.png');
+}
+
 /*discord transparency*//*roots*/ /*theme dark*/
   .theme-dark {
   --background-message-hover: rgba(255, 255, 255, 0.055);
@@ -145,17 +143,10 @@
   --deprecated-panel-background: transparent;
 }
 
-/*friends grid banner colour*/
-.theme-dark{
---FG-cards-banner-background: transparent!important;
-}
-.theme-light{
---FG-cards-banner-background: transparent!important;
-} 
 
 
-
-
+     
+     
 /*Permissions*/
 /*
 -You do not have the rights to use our theme name Chillax™ on other projects 
@@ -169,23 +160,23 @@
  Wq                                       Author
  Demented_Elmo                            Co-Author
 =================================================================
+ Replace Wandering Cubes                  by AGreenPig
  Embeds                                   by Alexis WyvernZu
  Active Now CSS                           by Cedrick
  Memberlist until hover                   by Cedrick
  Hide User Buttons until Hover            by Commie Axolotl
  Center profile badge, avatar and name    by Commie Axolotl
- Account Details Grid                     by Dablulite
  Blurple recolour                         by DevilBro
  Emoji Replace                            by DevilBro
- Settings Icons                           by DevilBro
  Connection Issue Let Me Be               by Disease
  Radial Status                            by Gibbu
  About Me Clamp                           by ItMeSarah
  Better Jump to Present Button            by Lonk
  Better Mark As Read Button               by Lonk
+ Settings Icons                           by Lavender
  IconPack                                 by Lavender
  Discolored                               by Nyri4
+ Light/Dark mode indicator                by Saltssaumure
  Better Spotify Control                   by Uri
 =================================================================
 */
-/*I really want to give a special shoutout to all of you for supporting me in this theme, thank you all.*/
